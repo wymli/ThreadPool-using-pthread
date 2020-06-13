@@ -43,7 +43,7 @@
   ```
 - 测试函数(线程库的用法):
   ```c
-    int main() {
+  int main() {
     threadpool_t pool;
     threadpool_init(&pool, 10);
     char fn_name[20] = {0};
@@ -62,7 +62,7 @@
     print_list(&pool.thread_list);
     // threadpool_wait(&pool);
     threadpool_destroy(&pool);
-  }
+  } 
   ```
 
 - 文件组织
