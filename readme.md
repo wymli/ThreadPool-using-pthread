@@ -6,7 +6,7 @@
   - 通过链表作为容器容纳 thread和task
   - 特点:
     - 简答解决task并发(线程池并发)
-    - 简单解决log并发(mutex和tls)
+    - 简单解决log并发(mutex和tls)(同步log)
     - 简单实现list泛型
     - posix api风格
 - 编译: `gcc threadpool.c main.c log.c list_t.c -o main -lpthread`
